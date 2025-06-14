@@ -36,9 +36,7 @@ Suivez ces étapes avant de lancer l'application :
 1. Télécharger le dossier ZIP du projet.
 2. Ne **pas changer le nom** du dossier principal `Projet_data_mana/`, sinon cela modifiera les chemins vers les pages.
 
-### 📁 Structure du Projet
-
-### 📁 Structure du Projet
+### Structure du Projet
 
 ```
 Projet_data_mana/
@@ -57,8 +55,6 @@ Projet_data_mana/
 └── requirements.txt                    #Fichier des dépendances
 ```
                 
-
-
 ### Installer les dépendances
 
 ```bash
