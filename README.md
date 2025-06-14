@@ -38,20 +38,25 @@ Suivez ces étapes avant de lancer l'application :
 
 ### 📁 Structure du Projet
 
+### 📁 Structure du Projet
+
+```
 Projet_data_mana/
 ├── Appli_streamlit/
-│   ├── .streamlit/                     # Pour lancer l’application : streamlit run streamlit_app.py
-│   │   └── config.toml                 # Configuration de l'apparence Streamlit
-│   ├── pages/                          # Contient les différentes pages de l'application
+│   ├── .streamlit/                     #Pour lancer l’application : streamlit run streamlit_app.py
+│   │   └── config.toml                 #Configuration de l'apparence Streamlit
+│   ├── pages/                          #Contient les différentes pages de l'application
 │   │   ├── 01_PAGE_PRINCIPALE.py
 │   │   ├── 02_VISUALISATION_INTERACTIVES.py
 │   │   └── 03_ANALYSE_GENERALES.py
-│   ├── new_ECommerce_consumer_behaviour.csv  # Jeu de données utilisé
-│   ├── streamlit_app.py                # Point d'entrée principal de l'application
-│   └── utils.py                        # Fonctions utilitaires
-├── Projet_DataMgt.ipynb                # Notebook Jupyter 
-├── ECommerce_consumer_behaviour.csv    # Copie du jeu de données
-└── requirements.txt                    # Fichier des dépendances
+│   ├── new_ECommerce_consumer_behaviour.csv  #Jeu de données utilisé
+│   ├── streamlit_app.py                #Point d'entrée principal de l'application
+│   └── utils.py                        #Fonctions utilitaires
+├── Projet_DataMgt.ipynb                #Notebook Jupyter
+├── ECommerce_consumer_behaviour.csv    #Copie du jeu de données
+└── requirements.txt                    #Fichier des dépendances
+```
+                
 
 
 ### Installer les dépendances
